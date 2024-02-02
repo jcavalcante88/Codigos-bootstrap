@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" -content="width device-width, initial-scale=1.0" />
+    
+      <link rel="canonical" href="https://samplesite.com/page.html">
+      <link rel="sitemap" type="application/xml" href="https://samplesite.com/sitemap.xml">
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="https://samplesite.com/rss.xml">
+      <link rel="search" type="application/opensearchdescription+xml" title="Search" href="https://samplesite.com/search.xml">
+   
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Aprendendo Js</title>
+
+    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <style>
+    .bg-half-light {
+      background: linear-gradient(0deg, white 50%, rgb(213, 208, 208) 50%);
+    }
+
+    .bg-map {
+   background-image: url("../images-removebg-preview\ \(2\).png");
+   background-size: contain;
+   background-position: center;
+   background-image: 180px;
+   background-repeat: no-repeat;
+   font-size: 190px;
+  
+
+    }
+
+    .group input {
+   border: 0px;
+   outline: none;
+
+    }
+
+    .text-black{
+color:black
+      
+    }
+
+    h1,.serif {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+
+    
+    
+  </style>
+
+  <body>
+   
+    <div style="background-color: #fdc800;">
+      <div class="container p-2 d-flex">
+        <div class="d-none d-ms-none d-xl-block">
+          <img alt="icon pin" src="geo-alt.svg" />
+          Av: Presidente juscelino, 330 Diadema-sp
+        </div>
+
+        
+        <div class="d-none d-sm-block ms-md-auto me-md-0 mx-auto">
+          <img alt="icon" src="envelope-at.svg" />
+          jerrycamargodores@gmail.com
+        </div>
+
+        <div class="ms-md-auto me-md-0 mx-auto">
+          <img alt="facebook" src="facebook.svg" />
+          <img alt="pinterest" src="pinterest.svg" />
+          <img alt="twitter" src="twitter (1).svg" />
+          <img alt="instagram" src="instagram.svg" />
+        </div>
+      </div>
+    </div>
+   
+<div>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#" style="font-size: 40px">
+          <img
+            src="chavinha.png"
+            alt="logo chave"
+            style="height: 80px"
+            class="me-3"
+          />Chaveiro</a
+        >
+        
+          Bom pastor
+       
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto me-md-4-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Vendas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <button class="btn btn-warning me-3">Cadastre-se</button>
+            <button class="btn btn-warning">
+              <img src="search.svg" alt="pesquisa" class="btn btn-warning" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section style="background-color: rgb(213, 208, 208)">
+      <div class="container">
+        <div class="row pt-4">
+          <div class="col-lg-7">
+            <h5>Seja nosso cliente</h5>
+            <h1>
+              Segurança em primeiro lugar
+
+              <br />
+
+              Ferramentas de Qualidade
+            </h1>
+            <div class="mt-5 mb-5">
+              <button class="btn btn-dark">Compre agora</button>
+              <button class="btn btn-light px-4 py-2">Saiba mais</button>
+            </div>
+          </div>
+          <div class="col-lg-5 d-none d-lg-block"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-half-light">
+      <div class="container bg bg-secondary rounded rounded-6 p-6">
+        <div
+          class="row g-4 text-white align-items-center text-center"
+          style="background-color: #25bafa"
+        >
+          <div class="col-2 d-none d-md-block">
+            <img
+              src="sonata.png"
+              style="height: 150px"
+              class="img-fluid"
+              alt="no alvo"
+              width="200px"
+            />
+          </div>
+
+          <div class="col-5">
+            <h2 style="color:black">Tudo oque você <Span style="color:#fdc800">precisa</Span></h2>
+          </div>
+
+          <div class="col-5 d-sm-block   ">
+            <div class="row g-0  align-items-center">
+              <div class="col">
+                <h3 class="text-large">11</h3>
+                <span class="text-small">Dias</span>
+              </div>
+              <div class="col-1 fs-4  mb-3">:</div>
+              <div class="col">
+                <h3 class="text-large">02</h3>
+                <span class="text-small">horas</span>
+              </div>
+              <div class="col-1 fs-4  mb-3">:</div>
+              <div class="col">
+                <h3 class="text-large">45</h3>
+                <span class="text-small">Minutos</span>
+              </div>
+              <div class="col-1 fs-4 mb-3">:</div>
+              <div class="col-2 d-none d-md-block ">
+                <h3 class="text-large">21</h3>
+                <span class="text-small">Segundos</span>
+              </div>
+              
+            
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mt-5">
+        <h1 style="background-color: #fdc800;">Faça sua escolha!</h1>
+      </div>
+    </div>
+    <div class="row row-cols-2 row-cols-lg-3 g-5" style="margin-bottom: 170px; font-size: 30px; color:rgb(106, 36, 205)">
+      <div class="col">
+        <div class="card" style="background-color: #fdc800;">
+        <img src="fechaduras.webp"alt="Segurança"
+            class="card-img-top"> 
+
+          <div class="card-body">
+            <div class="card-title">Fechaduras eletronica</div>
+            <div class="card-text"><h6>Diversas</h6></div>
+        </div>
+      </div>
+    </div>
+      <div class="col">
+        <div class="card" style="background-color: #fdc800;">
+          <img src="maçaneta.jpg"alt="Segurança"
+          class="card-img-top"> 
+
+          <div class="card-body">
+            <div class="card-title">Fechaduras Simples</div>
+            <div class="card-text"><h6>Diversas</h6></div>
+        </div>
+      </div>
+    </div>
+      <div class="col">
+        <div class="card" style="background-color: #fdc800;">
+          <img src="modelos de chave auto.jpg"alt="Segurança"
+          class="card-img-top" style="height: 235px;"> 
+
+          <div class="card-body">
+            <div class="card-title">Codificações de chaves </div>
+            <div class="card-text"><h6>Diversas</h6></div>
+        </div>
+      </div>
+    </div>
+      <div class="col">
+        <div class="card" style="background-color: #fdc800;">
+          <img src="jogo de michas.webp"alt="Segurança"
+          class="card-img-top" style="height: 315px;"> 
+
+          <div class="card-body">
+            <div class="card-title"> Mixas  modelos</div>
+            <div class="card-text"><h6>Diversas</h6></div>
+        </div>
+      </div>
+    </div>
+      <div class="col">
+        <div class="card" style="background-color: #fdc800;">
+          <img src="travas.jpg"alt="Segurança"
+          class="card-img-top" style="height: 315px;"> 
+
+          <div class="card-body">
+            <div class="card-title">Travas tetras</div>
+            <div class="card-text"><h6>Diversas</h6></div>
+        </div>
+      </div>
+    </div>
+      <div class="col">
+        <div class="card" style="background-color: #fdc800;">
+          <img src="miolo2.jpg"alt="Segurança"
+          class="card-img-top" style="height: 315px;"> 
+
+          <div class="card-body">
+            <div class="card-title">Miolo</div>
+            <div class="card-text"><h6>Diversas</h6></div>
+        </div>
+      </div>
+    </div>
+      <div class="col">
+        <div class="card" style="background-color: #fdc800;">
+          <img src="olho magico.jpg"alt="Segurança"
+          class="card-img-top" style="height: 315px;"> 
+
+          <div class="card-body">
+            <div class="card-title">Olho magico</div>
+            <div class="card-text"><h6>Diversas</h6></div>
+        </div>
+      </div>
+    </div>
+      <div class="col">
+        <div class="card" style="background-color: #fdc800;">
+          <img src="chip.webp"alt="Segurança"
+          class="card-img-top" style="height: 315px;"> 
+
+          <div class="card-body">
+            <div class="card-title">Chip para codificação</div>
+            <div class="card-text"><h6>Diversas</h6></div>
+        </div>
+      </div>
+    </div>
+      <div class="col">
+        <div class="card" style="background-color: #fdc800;">
+          <img src="molho de chaves.jpg"alt="Segurança"
+          class="card-img-top" style="height: 315px;"> 
+
+          <div class="card-body">
+            <div class="card-title">Chaves virgem </div>
+            <div class="card-text"><h6>Diversas</h6></div>
+        </div>
+      </div>
+    </div>
+      
+  </div>
+  
+  
+</section>
+    
+
+<section class="my-5">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 position-relative serif">
+      <img src="aprovado.jpeg" class="img-fluid position-absolute top-0" alt="Residencia" style="height: 110px; " />
+      <img src="jerry.jpeg" class="img-fluid" alt="Residencia" style="width: 880px; height:550px; padding: 60px;" />
+       <div class="card border-0 text-center mx-auto py-3 py-xl-3" style="margin-top: -60px; width: 45%;" >
+        <div class="card-body p-0 px-2">
+      
+          <div class="card-title text-secondary fw-bold"><span class="text-primary">Jerry cavalcante</span></div> 
+        </div>
+          <p class="card-text text-body"><small>Chaveiro</small></p>
+
+       </div>
+     </div>
+       <div class="col-md-6 serif">
+      <h1>Com  <span class="text-primary">Certificado</span></h1>
+      <p >Projeto de lei de autoria do deputado Gilberto Nascimento (PMDB-SP) propõe a regulamentação da profissão de chaveiro e de instalador de sistema de segurança. O projeto (PL 1851/03) estabelece como pré-requisito para o exercício da profissão não ter antecedentes criminais; ser maior de 18 anos e comprovar habilitação em curso específico. A Câmara já analisa outra proposta que regulamenta a atividade de chaveiro - o PL 1404/03, da deputada Maninha (PT-DF).
+          Fonte: Agência Câmara de Notícias</p>
+      <div  class="text-secondary fw-bold mb-3">O curso que o Jerry fez</div>
+        
+        <div class="row g-0 align-items-center text-md-start  ">
+         <div class="col-12 col col-md-2" style="z-index: 1;">
+  <img src="certificado.jpg" class="img-fluid d-none d-xl-block" alt="Segurança" style="height: 80px;">
+        </div>
+        <div class="col" > 
+  <div class="bg-light p-2 ps-4 rounded " >
+  <div class="text-secondary fw-bold serif">
+ Segurança em primeiro lugar 
+ </div>
+  <br />
+  <div class="text-secondary fw-bold serif">
+  Sua familia é tudo!
+  </div>
+      </div>
+      </div>
+     </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+<section class="my-5 bg-light py-5">
+  <div class="container bg-map" >
+    <div class="row row-col-2 row-cols-md-4 text-center">
+      <div class="col" >
+        <img src="gordin2.png" class="img-fluid"alt="imagem foto">
+         <div class="text-secondary fs-1 fw-bold serif">
+           100%
+       </div>
+         <div class="text-info fw-bold  text-uppercase " style="font-size: 0.9rem;"> Prestatividade</div>
+       </div>
+    
+  
+        <div class="col">
+        <img src="images-removebg-preview (1).png" class="img-fluid"alt="imagem foto">
+        <div class="text-secondary fs-1 fw-bold serif">
+         100%
+       </div>
+        <div class="text-info fw-bold  text-uppercase " style="font-size: 0.9rem;">Confiança</div>
+       </div>
+    
+  
+        <div class="col">
+         <img src="images-removebg-preview.png" class="img-fluid"alt="imagem foto">
+          <div class="text-secondary fs-1 fw-bold  serif">
+          100%
+       </div>
+        <div class="text-info fw-bold  text-uppercase " style="font-size: 0.9rem;">Atenção</div>
+       </div>
+    
+  
+        <div class="col"  style="margin-top: 42px;">
+         <img src="logo-removebg-preview.png" class="img-fluid"alt="imagem foto">
+          <div class="text-secondary fs-1 fw-bold serif">
+          100%
+        </div>
+         <div class="text-info fw-bold  text-uppercase " style="font-size: 0.9rem;">Segurança</div>
+        </div>
+    
+</section>
+
+<section>
+  <div class="my-5">
+    <div class="container">
+      <div class="row align-items-center ">
+        <div class="col-5">
+        <img src="cabeça.png"alt="imagen do chaveiro" class="img-fluid px-5" style="width: 740px;"> 
+          </div>
+          <div class="col-6">
+            <h5 class="text-primary fs-6">Entre em contato conosco</h5>
+            <h1>Formulario</h1>
+            <div class="group border rounded p-1 d-flex">
+            <img src="envelope-fill.svg"alt="Icone de e-mail"style="width: 30px;"  >
+            
+            <input type="email" class="p-2 flex-grow-1" placeholder="Digite seu e-mail"/>
+            <button class="btn btn-primary"type="submit">Inscreva-se agora</button>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-white" style="background-color: #24233b ">
+      <div class="container">
+      <div class="row py-5 row-cols-1 row-cols-md-3" >
+        <div class=" d-none-sm-col-4 " >
+          
+        
+          
+          <img src="th-removebg-preview.png" alt="imagen de chaveiro" style="width: 100px;"/>
+          Bom pastor
+        
+        
+          
+        <div  class="  p-2" >
+        <img src="geo-alt (1).svg" alt="Localidade "/>
+          AV:Presidente juscelino, 330 - São Paulo 
+      
+      
+      
+          <div  class=" p-1">
+         <img src="envelope-fill.svg" alt="E-mail"/>
+          jerrycamargodores@gmail.com
+          
+      </div>
+    <div class=" p-1">
+      <img src="telephone-inbound.svg" alt="Telefone" />
+          (11) 9-7253-6688
+
+ </div>
+  </div>
+  </div>
+  
+
+
+ 
+
+ 
+<div class="col-5" style="margin-left:240px; padding-bottom: 40px;">
+  <div class="row row-cols-1  row-cols-lg-3">
+    <div class="col">
+      <h5 class="fs-8">Comunidade</h5>
+<ul>
+  <li>Parceiros</li>
+  <li>Desenvolvedores</li>
+  <li>Manutenção</li>
+  <li>Vendedores</li>
+  <li>Prestadores</li>
+  <li>Central</li>
+  <li>Licensa</li>
+</ul>
+</div>
+
+    <div class="col" >
+      <h5 class="fs-8"> Informação</h5>
+    <li>Sobre</li>
+    <li>Preço</li>
+    <li>Carreira</li>
+    <li>Blog</li>
+    <li>Contato</li>
+</div>
+    <div class="col">
+      <h5 class="fs-8">Mais</h5>
+    <li>Editora</li>
+    <li>Envestidores</li>
+    <li>Termos</li>
+    <li>Privacidade</li>
+    <li>Ajuda</li>
+    <li>Acessibilidade</li>
+    <li>Artigo</li>
+    <li>Afiliados</li>
+  </div>
+</div>
+</div>
+
+
+
+<div  class="col-12 text-black p-4 "  style="padding-bottom: 20px;  background-color: #fdc800;"  >
+  <div class="row " >
+    <div class="col ">
+      Todos os direitos reservados @ 2021 Bom pastor
+      </div>
+
+
+    <div  class="col-2 fs-5">
+      <div class="ms-md-auto me-md-0 mx-auto ">
+        <img alt="facebook" src="facebook.svg" />
+        <img alt="pinterest" src="pinterest.svg" />
+        <img alt="twitter" src="twitter (1).svg" />
+        <img alt="instagram" src="instagram.svg" />
+      </div>
+
+    </div>
+  </div>
+ 
+  </div>
+</div>
+
+</div>
+
+
+    </footer>
+  
+</section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
